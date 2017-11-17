@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="nama"/>
+    <button id="tombol">Kirim</button>
+    <ol id="list">
+ 
+    </ol>
+ 
+    <script>
+       
+        var namaE = document.getElementById("nama")
+        var tombolE = document.getElementById("tombol")
+        var list = document.getElementById('list')
+ 
+        var x = 6
+ 
+        // alert(x)
+ 
+        console.log(x)
+ 
+        //namaE.value = "Aria Ganteng"
+ 
+        tombol.addEventListener('click', function(){
+            // alert("Hai " +nama.value)
+            var x = nama.value
+            list.innerHTML = list.innerHTML + "<li>" + x + "</li>";
+        })
+ 
+    </script>
+ 
+</body>
+</html>
